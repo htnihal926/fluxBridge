@@ -81,6 +81,14 @@ fluxbridge/
 │       └── clipboard.rs   # Clipboard manager
 └── README.md
 ```
+⚡ Key Features:
+- Automatic device discovery using mDNS (like Apple's Bonjour)
+- Real-time clipboard synchronization across all connected devices
+- Drag-and-drop file transfer with chunking for large files
+- Direct peer-to-peer connections via WebRTC
+- Cross-platform support (Windows, macOS, Linux)
+- Zero configuration required
+- Works completely offline (only needs local Wi-Fi)
 
 ## Development
 
