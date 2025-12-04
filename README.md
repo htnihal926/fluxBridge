@@ -2,6 +2,9 @@
 
 A Rust + Tauri application for seamless device connectivity featuring P2P discovery, universal clipboard sync, and file transfer.
 
+## 🎯 What It Does:
+FluxBridge creates a local mesh network between your devices, enabling instant clipboard synchronization and file transfers without any configuration. Copy text on your laptop, paste it on your desktop. Drag a file into the app, and it appears on your other device—all happening locally, encrypted, and in real-time.
+
 ## Features
 
 - **🔍 P2P Discovery**: Zero-config device discovery via mDNS
@@ -81,14 +84,14 @@ fluxbridge/
 │       └── clipboard.rs   # Clipboard manager
 └── README.md
 ```
-⚡ Key Features:
+⚡ **Key Features:**
 - Automatic device discovery using mDNS (like Apple's Bonjour)
 - Real-time clipboard synchronization across all connected devices
-- Drag-and-drop file transfer with chunking for large files
-- Direct peer-to-peer connections via WebRTC
-- Cross-platform support (Windows, macOS, Linux)
+- **Drag-and-drop** file transfer with chunking for large files
+- **Direct peer-to-peer** connections via WebRTC
+- **Cross-platform support** (Windows, macOS, Linux)
 - Zero configuration required
-- Works completely offline (only needs local Wi-Fi)
+- Works completely **offline** (only needs local Wi-Fi)
 
 ## Development
 
